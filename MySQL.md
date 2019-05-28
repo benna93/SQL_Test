@@ -206,7 +206,8 @@ ORDER BY `accepted_answer_id` ASC
 You can't put multiple filters in one field.
 
 <br>
-###CUSTOM SQL QUERIES
+
+### CUSTOM SQL QUERIES
 
 ***How many results?***
 
