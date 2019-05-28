@@ -111,21 +111,27 @@ The AUTO_INCREMENT value is still 24096, which we didn't expect it to be.
 ### DELETING TABLES
 
 ***Browse***
+
 Shows the rows of each table.
 
 ***Structure***
+
 Shows the columns of each table.
 
 ***Search***
+
 Allows you to search through values of each column.
 
 ***Insert***
+
 Allows you to create a new row.
 
 ***Empty***
+
 Allows you to truncate(empty out) a complete table.
 
 ***Drop***
+
 Allows you to destroy (delete) a complete table.
 <br>
 
