@@ -1,6 +1,6 @@
-#SQL
+# SQL
 
-###CONSULTING TABELSTRUCTURES
+### CONSULTING TABELSTRUCTURES
 
 ***What is a primary key?***
 
@@ -34,7 +34,7 @@ ID is the primary key because each field can be identified with it. It shows up 
 
 <br>
 
-###WORKING WITH DATA
+### WORKING WITH DATA
 
 Sorting the rows resulted in the following queries:
 
@@ -53,7 +53,7 @@ Again it depends, ours for example took 0.0631 seconds.
 
 <br>
 
-###CHANGING DATA
+### CHANGING DATA
 
 Update query after adjusting view_count to 1 and removing the smiley at the end:
 
@@ -63,7 +63,7 @@ UPDATE `posts` SET `view_count` = '1', `body` = '<p>You will have to jailbreak y
 
 <br>
 
-###INSERTING DATA
+### INSERTING DATA
 
 **Unclear instructions.**
 ```
@@ -72,7 +72,7 @@ INSERT INTO `posts` (`id`, `post_type_id`, `parent_id`, `accepted_answer_id`, `c
 <br>
 
 
-###DELETING DATA
+### DELETING DATA
 
 ***Why does this post have an ID even though we didn't assign a value to it?***
 
@@ -86,7 +86,7 @@ WHERE `posts`.`id` = 24096
 
 <br>
 
-###EXPORTING DATABASES
+### EXPORTING DATABASES
  OK.
 <br>
 ###DELETING ALL DATA FROM TABLE
@@ -108,7 +108,7 @@ i.e. zero rows). (Query took 0.0007 seconds.)
 The AUTO_INCREMENT value is still 24096, which we didn't expect it to be.
 <br>
 
-###DELETING TABLES
+### DELETING TABLES
 
 ***Browse***
 Shows the rows of each table.
@@ -129,12 +129,12 @@ Allows you to truncate(empty out) a complete table.
 Allows you to destroy (delete) a complete table.
 <br>
 
-###IMPORTING DATABASES AGAIN
+### IMPORTING DATABASES AGAIN
 
 Ok.
 <br>
 
-###EXPORT-IMPORT WORKFLOW
+### EXPORT-IMPORT WORKFLOW
 
 ```
 Import has been successfully finished, 
@@ -142,7 +142,7 @@ Import has been successfully finished,
 ```
 
 <br>
-###SEARCHING TABLES
+### SEARCHING TABLES
 
 What is the ID of this post?
 The ID of reinstalling xcode is 21802.
@@ -206,7 +206,7 @@ ORDER BY `accepted_answer_id` ASC
 You can't put multiple filters in one field.
 
 <br>
-###CUSTOM SQL QUERIES
+### CUSTOM SQL QUERIES
 
 ***How many results?***
 
