@@ -71,7 +71,6 @@ INSERT INTO `posts` (`id`, `post_type_id`, `parent_id`, `accepted_answer_id`, `c
 ```
 <br>
 
-
 ### DELETING DATA
 
 ***Why does this post have an ID even though we didn't assign a value to it?***
@@ -89,7 +88,8 @@ WHERE `posts`.`id` = 24096
 ### EXPORTING DATABASES
  OK.
 <br>
-###DELETING ALL DATA FROM TABLE
+
+### DELETING ALL DATA FROM TABLE
 
 >Auto-increment allows a unique number to be generated automatically when a new record is inserted into a table.
 Often this is the primary key field that we would like to be created automatically every time a new record is inserted.
